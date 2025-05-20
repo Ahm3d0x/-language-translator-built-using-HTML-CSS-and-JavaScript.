@@ -112,7 +112,7 @@ const fromText = document.querySelector(".from-text"),
             ? "selected"
             : ""
           : lang_code == "ar-SA"
-          ? "selected"
+          ? "ar-SA"
           : "";
       let option = `<option ${selected} value="${lang_code}">${languages[lang_code]}</option>`;
       tag.insertAdjacentHTML("beforeend", option);

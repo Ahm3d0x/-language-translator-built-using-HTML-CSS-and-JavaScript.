@@ -111,7 +111,7 @@ const fromText = document.querySelector(".from-text"),
           ? lang_code == "en-GB"
             ? "selected"
             : ""
-          : lang_code == "fa-IR"
+          : lang_code == "ar-SA"
           ? "selected"
           : "";
       let option = `<option ${selected} value="${lang_code}">${languages[lang_code]}</option>`;
